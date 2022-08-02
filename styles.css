@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 1.6rem/1.5 "Outfit", sans-serif;
+  background: hsl(212deg, 45%, 89%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.card {
+  width: 90%;
+  max-width: 370px;
+  margin: 10rem auto 5rem auto;
+  padding: 2rem 0 4rem 0;
+  text-align: center;
+  background: hsl(0deg, 0%, 100%);
+  border-radius: 2rem;
+}
+.card .img-wrapper {
+  width: 90%;
+  margin: 0 auto 2rem auto;
+}
+.card .img-wrapper img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.card .card__text {
+  width: 83%;
+  margin: auto;
+}
+.card .card__text h2 {
+  margin-bottom: 1.5rem;
+  color: hsl(218deg, 44%, 22%);
+}
+.card .card__text p {
+  color: hsl(220deg, 15%, 55%);
+}
+
+/*# sourceMappingURL=styles.css.map */
